@@ -1,4 +1,6 @@
-"""colourTheory by Endersoul__606"""
+"""
+    colourTheory v1.1 by Endersoul__606
+"""
 
 def print_colour(text, colour="default"):
     """A way to use colours in print statements"""
