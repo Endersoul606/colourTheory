@@ -1,3 +1,5 @@
+# colourTheory
+
 colourTheory is a library made with python essentials
 
 ========================================================
