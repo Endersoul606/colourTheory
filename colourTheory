@@ -1,5 +1,5 @@
 """
-    colourTheory v1.1 by Endersoul__606
+    colourTheory v1.2 by Endersoul__606
 """
 
 def print_colour(text, colour="default"):
@@ -51,7 +51,6 @@ def help(choise):
         print_colour("[.pause()] pauses the track and lets you resume later", "black")
         print_colour("[.resume()] resumes the track in the position where it was paused", "black")
         print_colour("[.stop()] stops the track completely", "black")
-        print_colour("[import_sound_library()] returns many songs which can be used by AudioPlayer")
     elif choise == 4:
         print_colour("Section - Colour Changing Windows", "black")
         print_colour("Colour Theory has an inbuilt class for colour-changing windows")
