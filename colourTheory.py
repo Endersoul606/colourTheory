@@ -1,5 +1,5 @@
 """
-    colourTheory v1.2 by Endersoul__606
+    colourTheory v1.3 by Endersoul__606
 """
 
 def print_colour(text, colour="default"):
@@ -164,7 +164,11 @@ l = [white,brighten_colour(rose_pink),rose_pink,light_pink,pink,magenta,coral,da
      sarcoline,warm_white,light_gray,cold_white,off_white]
 
 class ColourChangingWindow:
-    def __init__(self, width:int, height:int, objects:list = []):
+    """A Window which Colour Changes:
+    Width) Width of Window
+    Height) Height of Window
+    Objects) Objects to draw ontop of the window"""
+    def __init__(self, width:int = 300, height:int = 300, objects:list = []):
         import tkinter as tk
         self.to_draw = objects
         self.window = tk.Tk()
@@ -173,7 +177,7 @@ class ColourChangingWindow:
         self.index = 0
         self.FirstTime = True
         self.colourChange()
-    
+
     def colourChange(self):
         import tkinter as tk
         self.index += 1
